@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Seu Amigo Secreto</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #d62828, #f77f00, #fcbf49);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: #ffffffee;
+            padding: 40px;
+            border-radius: 20px;
+            width: 380px;
+            text-align: center;
+            box-shadow: 0 0 20px #0004;
+        }
+
+        h1 {
+            color: #b30000;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🎁 Resultado 🎁</h1>
+    <p>{{ nome }}, seu amigo secreto é:</p>
+    <p style="font-size: 32px; color:#b30000">{{ amigo }}</p>
+</div>
+
+</body>
+</html>
